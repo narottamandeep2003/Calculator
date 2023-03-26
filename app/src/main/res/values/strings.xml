@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="Calculator">Calculator</string>
+    <string name="UnitConverter">Unit converter</string>
+    <string name="NumberConversion">Number conversion</string>
+    <string name="LogicalOperation">Logical operation</string>
+    <string name="PermutationAndCombination">Permutation and Combination</string>
+
 </resources>
