@@ -1,5 +1,6 @@
 package com.example.calculator;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -26,7 +27,11 @@ public class MainActivity extends AppCompatActivity {
 //        LogicalOperation
         LogicalOperation.setOnClickListener(view -> Log.d("S","LogicalOperation"));
 //        PermutationAndCombination
-        PermutationAndCombination.setOnClickListener(view -> Log.d("S","PermutationAndCombination"));
+        PermutationAndCombination.setOnClickListener(view -> {
+            Intent intent=new Intent(view.getContext(),PerCom.class);
+            startActivity(intent);
+            Log.d("S","PermutationAndCombination");
+        });
 
 
     }

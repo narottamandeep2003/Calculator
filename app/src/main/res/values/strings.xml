@@ -5,5 +5,10 @@
     <string name="NumberConversion">Number conversion</string>
     <string name="LogicalOperation">Logical operation</string>
     <string name="PermutationAndCombination">Permutation and Combination</string>
+    <string name="n">N</string>
+    <string name="r">R</string>
+    <string name="ans">Ans</string>
+    <string name="permutation">Permutation</string>
+    <string name="combination">Combination</string>
 
 </resources>
