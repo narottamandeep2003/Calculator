@@ -18,17 +18,40 @@ public class MainActivity extends AppCompatActivity {
         CardView NumberConversion=findViewById(R.id.NumberConversion);
         CardView LogicalOperation=findViewById(R.id.LogicalOperation);
         CardView PermutationAndCombination=findViewById(R.id.PermutationAndCombination);
+        CardView News=findViewById(R.id.News);
 //        Calculator
-        Calculator.setOnClickListener(view -> Log.d("S","Calculator"));
+        Calculator.setOnClickListener(view -> {
+            Intent intent=new Intent(view.getContext(),cal.class);
+            startActivity(intent);
+            Log.d("S","Calculator");
+        });
 //        UnitConverter
-        UnitConverter.setOnClickListener(view -> Log.d("S","UnitConverter"));
+        UnitConverter.setOnClickListener(view -> {
+            Intent intent=new Intent(view.getContext(),Unit.class);
+            startActivity(intent);
+            Log.d("S","UnitConverter");
+
+        });
 //        NumberConversion
-        NumberConversion.setOnClickListener(view -> Log.d("S","NumberConversion"));
+        NumberConversion.setOnClickListener(view -> {
+            Intent intent=new Intent(view.getContext(),Con.class);
+            startActivity(intent);
+            Log.d("S","NumberConversion");
+        });
 //        LogicalOperation
-        LogicalOperation.setOnClickListener(view -> Log.d("S","LogicalOperation"));
+        LogicalOperation.setOnClickListener(view -> {
+            Intent intent=new Intent(view.getContext(),Logic.class);
+            startActivity(intent);
+            Log.d("S","LogicalOperation");
+        });
 //        PermutationAndCombination
         PermutationAndCombination.setOnClickListener(view -> {
             Intent intent=new Intent(view.getContext(),PerCom.class);
+            startActivity(intent);
+            Log.d("S","PermutationAndCombination");
+        });
+        News.setOnClickListener(view -> {
+            Intent intent=new Intent(view.getContext(),news1.class);
             startActivity(intent);
             Log.d("S","PermutationAndCombination");
         });

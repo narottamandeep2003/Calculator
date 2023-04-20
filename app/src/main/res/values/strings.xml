@@ -10,5 +10,11 @@
     <string name="ans">Ans</string>
     <string name="permutation">Permutation</string>
     <string name="combination">Combination</string>
-
+    <string name="news">News</string>
+    <string name="num2_in_binary">Num2 in binary</string>
+    <string name="num1_in_binary">Num1 in binary</string>
+    <string name="and">And</string>
+    <string name="or">Or</string>
+    <string name="xor">xor</string>
+    <string name="number">Number</string>
 </resources>
